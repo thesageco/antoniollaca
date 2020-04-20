@@ -1,5 +1,4 @@
 import React, { useReducer, useEffect, useState } from 'react';
-import logo from './logo.svg';
 import './App.scss';
 import Navbar from './components/navbar';
 import Hamburger from './components/hamburger';

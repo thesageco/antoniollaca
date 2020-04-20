@@ -29,13 +29,13 @@ export default function Dropdown(props: DropdownProp) {
       <div className="dd-header">
         <div className="dd-header-title" onClick={toggleOpen}>
           {state.options[activeIndex]}
-          <img src={down} className={`${open?"up":"down"}`}/>
+          <img alt="down arrow" src={down} className={`${open?"up":"down"}`}/>
         </div>
         
       </div>
       <ul className={`dd-list ${open?"show":"hide"}`}>
         {state.options.map((lang, i) => {
-          return <li className={`dd-list-item ${activeIndex == i?"selected":""}`} onClick={() => handleClick(i, lang)} key={i}>{lang}</li>
+          return <li className={`dd-list-item ${activeIndex === i?"selected":""}`} onClick={() => handleClick(i, lang)} key={i}>{lang}</li>
         })}
       </ul>
     </div>

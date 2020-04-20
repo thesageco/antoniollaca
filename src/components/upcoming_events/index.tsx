@@ -1,6 +1,5 @@
-import React, { useState, useContext } from 'react';
+import React from 'react';
 import './index.scss';
-import { LanguageSetStore } from '../../App'
 import {Event, EventStatus} from '../event'
 import events_json from '../../assets/events.json'
 
@@ -21,7 +20,7 @@ export default function UpcomingEvents() {
               details: event.details,
               dates: event.dates,
               location: event.location,
-              status: event.status == "On" ? EventStatus.OnTrack : EventStatus.Cancelled
+              status: event.status === "On" ? EventStatus.OnTrack : EventStatus.Cancelled
             })
           )
         })}

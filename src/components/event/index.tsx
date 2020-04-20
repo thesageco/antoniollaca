@@ -1,7 +1,6 @@
-import React, { useState, useContext } from 'react';
-import { Link } from "react-router-dom";
+import React, { useState } from 'react';
 import './index.scss';
-import { LanguageSetStore } from '../../App'
+// import { LanguageSetStore } from '../../App'
 
 enum EventStatus {
   OnTrack = "On",
@@ -29,7 +28,7 @@ export default function Event(props: EventProp) {
       <div className="dateLocation">
         <p className="dates">{state.dates}&nbsp;<span>|</span>&nbsp;</p><p className="location">{state.location}</p>
       </div>
-      <p className={`status ${state.status}`}>{state.status == EventStatus.OnTrack ? "On Track" : "Cancelled"}</p>
+      <p className={`status ${state.status}`}>{state.status === EventStatus.OnTrack ? "On Track" : "Cancelled"}</p>
     </div>
   );
 
