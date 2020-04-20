@@ -1,0 +1,26 @@
+[
+  {
+    "title": "TBC",
+    "place": "Tlaxcala Canta Festival Coral",
+    "details": "TBC",
+    "dates": "NOV 17-22",
+    "location": "Tlaxcala, Tlaxcala, Mexico",
+    "status": "On"
+  },
+  {
+    "title": "Research Study",
+    "place": "Université de Québec à Montréal",
+    "details": "Research Study on the conductor's gesture influences the choral ensembles sound",
+    "dates": "NOV 6-8",
+    "location": "Montreal, QC, Canada",
+    "status": "On"
+  },
+  {
+    "title": "Cuban Choral Music",
+    "place": "Podium National Conference",
+    "details": "Workshop on coval/choral technique for intermediate to advance youth choirs.",
+    "dates": "MAY 16",
+    "location": "Montreal, QC, Canada",
+    "status": "Off"
+  }
+]

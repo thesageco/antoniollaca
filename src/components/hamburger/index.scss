@@ -1,0 +1,37 @@
+.burger {
+  @media only screen and (min-width: 769px){
+    display: none;
+  }
+}
+.bm-burger-button {
+  position: fixed;
+  width: 2rem;
+  height: 2rem;
+  right: 10px;
+  top: 10px;
+}
+
+.bm-burger-bars {
+  background: white;
+}
+
+.bm-menu-wrap {
+  position: fixed;
+  max-height: 100vh;
+}
+
+.bm-menu {
+  background: black;
+  padding: 2.5em 1.5em 0;
+  font-size: 1.15em;
+}
+
+.bm-item-list {
+  color: white;
+  padding: 0.8em;
+}
+
+.bm-item {
+  color: white !important;
+  text-decoration: none;
+}

@@ -1,0 +1,36 @@
+.upcomingEvents {
+  margin-bottom: 4%;
+  .header {
+    display: flex;
+    display: -webkit-flex;
+    justify-content: space-between;
+    align-items: baseline;
+    h1 {
+      color: black;
+    }
+    a {
+      font-family: 'Open Sans';
+      text-decoration: none;
+      text-transform: uppercase;
+    }
+    margin-top: 4%;
+    margin-bottom: 2%;
+  }
+  .events {
+    font-family: 'Open Sans';
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    font-size: 0.9rem;
+    flex-direction: row;
+    @media only screen and (max-width: 769px){
+      flex-direction: column;
+    }
+    .event {
+      max-width: 30%;
+      @media only screen and (max-width: 769px){
+        max-width: 100%;
+      }
+    }
+  }
+}
