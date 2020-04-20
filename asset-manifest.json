@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.8f64d80e.chunk.css",
-    "main.js": "/static/js/main.3f5cea9d.chunk.js",
-    "main.js.map": "/static/js/main.3f5cea9d.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.53366327.js",
-    "runtime-main.js.map": "/static/js/runtime-main.53366327.js.map",
-    "static/js/2.3e47353c.chunk.js": "/static/js/2.3e47353c.chunk.js",
-    "static/js/2.3e47353c.chunk.js.map": "/static/js/2.3e47353c.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.06ed6a33a55b39c7d422e86adc7a3e64.js": "/precache-manifest.06ed6a33a55b39c7d422e86adc7a3e64.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.8f64d80e.chunk.css.map": "/static/css/main.8f64d80e.chunk.css.map",
-    "static/js/2.3e47353c.chunk.js.LICENSE.txt": "/static/js/2.3e47353c.chunk.js.LICENSE.txt",
-    "static/media/index.scss": "/static/media/playfair.20e1565d.ttf",
-    "static/media/down-arrow.svg": "/static/media/down-arrow.cd7c3e4f.svg",
-    "static/media/facebook.svg": "/static/media/facebook.6494aad0.svg",
-    "static/media/instagram.svg": "/static/media/instagram.99e3e6c8.svg",
-    "static/media/twitter.svg": "/static/media/twitter.9546889d.svg"
+    "main.css": "/antoniollaca/static/css/main.07fe9acf.chunk.css",
+    "main.js": "/antoniollaca/static/js/main.2fd7e1df.chunk.js",
+    "main.js.map": "/antoniollaca/static/js/main.2fd7e1df.chunk.js.map",
+    "runtime-main.js": "/antoniollaca/static/js/runtime-main.6e360e44.js",
+    "runtime-main.js.map": "/antoniollaca/static/js/runtime-main.6e360e44.js.map",
+    "static/js/2.5aef673d.chunk.js": "/antoniollaca/static/js/2.5aef673d.chunk.js",
+    "static/js/2.5aef673d.chunk.js.map": "/antoniollaca/static/js/2.5aef673d.chunk.js.map",
+    "index.html": "/antoniollaca/index.html",
+    "precache-manifest.275b320b101335809c862f0044eb7c9f.js": "/antoniollaca/precache-manifest.275b320b101335809c862f0044eb7c9f.js",
+    "service-worker.js": "/antoniollaca/service-worker.js",
+    "static/css/main.07fe9acf.chunk.css.map": "/antoniollaca/static/css/main.07fe9acf.chunk.css.map",
+    "static/js/2.5aef673d.chunk.js.LICENSE.txt": "/antoniollaca/static/js/2.5aef673d.chunk.js.LICENSE.txt",
+    "static/media/index.scss": "/antoniollaca/static/media/playfair.20e1565d.ttf",
+    "static/media/down-arrow.svg": "/antoniollaca/static/media/down-arrow.cd7c3e4f.svg",
+    "static/media/facebook.svg": "/antoniollaca/static/media/facebook.6494aad0.svg",
+    "static/media/instagram.svg": "/antoniollaca/static/media/instagram.99e3e6c8.svg",
+    "static/media/twitter.svg": "/antoniollaca/static/media/twitter.9546889d.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.53366327.js",
-    "static/js/2.3e47353c.chunk.js",
-    "static/css/main.8f64d80e.chunk.css",
-    "static/js/main.3f5cea9d.chunk.js"
+    "static/js/runtime-main.6e360e44.js",
+    "static/js/2.5aef673d.chunk.js",
+    "static/css/main.07fe9acf.chunk.css",
+    "static/js/main.2fd7e1df.chunk.js"
   ]
 }
