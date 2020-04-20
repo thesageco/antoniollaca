@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ff6262ebfc6c9bf1a31122cf2de4b699",
+    "revision": "6c95807b691fe405c94b0a3c338557d9",
     "url": "/antoniollaca/index.html"
   },
   {
-    "revision": "68ef0d28dcd5fec4676f",
-    "url": "/antoniollaca/static/css/main.07fe9acf.chunk.css"
+    "revision": "c46e9264d9707cecc4d9",
+    "url": "/antoniollaca/static/css/main.aaeced61.chunk.css"
   },
   {
     "revision": "7cc58e7fe8c37623a8b8",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/antoniollaca/static/js/2.5aef673d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "68ef0d28dcd5fec4676f",
-    "url": "/antoniollaca/static/js/main.2fd7e1df.chunk.js"
+    "revision": "c46e9264d9707cecc4d9",
+    "url": "/antoniollaca/static/js/main.fae39659.chunk.js"
   },
   {
     "revision": "f93ae5b1ce9053d0a6e2",
@@ -36,6 +36,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/antoniollaca/static/media/OpenSans-SemiBold.ba5cde21.ttf"
   },
   {
+    "revision": "f69a5b467a1eea12f0ba75d20678d1e7",
+    "url": "/antoniollaca/static/media/desktop.f69a5b46.jpg"
+  },
+  {
     "revision": "cd7c3e4fd9bc660daabb273bb173aaae",
     "url": "/antoniollaca/static/media/down-arrow.cd7c3e4f.svg"
   },
@@ -46,6 +50,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "99e3e6c893f2f6dc449352d225873219",
     "url": "/antoniollaca/static/media/instagram.99e3e6c8.svg"
+  },
+  {
+    "revision": "c5d853df51f0505498037585af35aa14",
+    "url": "/antoniollaca/static/media/mobile.c5d853df.jpg"
   },
   {
     "revision": "20e1565dd5c9e47bd241d99c0dd55ad1",
