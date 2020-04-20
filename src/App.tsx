@@ -25,7 +25,7 @@ function languageReducer(
 function information(lang: String){
   switch(lang){
     case 'EN': 
-       return ["Choral conductor, teacher and clinician", ("Since 2009, Mr Llaca has conducted Coro Vivo Ottawa, and currently" +
+       return ["Choral conductor, teacher and clinician", ("Since 2009, Mr Llaca has conducted Coro Vivo Ottawa, and currently " +
        "teaches choral and instrumental conducting at Carelton University. He " +
        "is also a professor at the Conservatoire de Musique de Gatineau where he" +
        "conducts the choirs and orchestra. He conducts the Chinese Children's " +
@@ -69,7 +69,7 @@ export default function App() {
           <div className="container">
             <h1 className="text-container">{title}</h1>
             <p className="text-container">{blurb}</p>
-            <div className="buttons">
+            <div className="buttons text-container">
               {Button({
                 text: "Events",
                 href: "events",
