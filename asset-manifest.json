@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/antoniollaca/static/css/main.06aa67af.chunk.css",
-    "main.js": "/antoniollaca/static/js/main.fae39659.chunk.js",
-    "main.js.map": "/antoniollaca/static/js/main.fae39659.chunk.js.map",
+    "main.css": "/antoniollaca/static/css/main.adebc170.chunk.css",
+    "main.js": "/antoniollaca/static/js/main.657a0162.chunk.js",
+    "main.js.map": "/antoniollaca/static/js/main.657a0162.chunk.js.map",
     "runtime-main.js": "/antoniollaca/static/js/runtime-main.6e360e44.js",
     "runtime-main.js.map": "/antoniollaca/static/js/runtime-main.6e360e44.js.map",
     "static/js/2.5aef673d.chunk.js": "/antoniollaca/static/js/2.5aef673d.chunk.js",
     "static/js/2.5aef673d.chunk.js.map": "/antoniollaca/static/js/2.5aef673d.chunk.js.map",
     "index.html": "/antoniollaca/index.html",
-    "precache-manifest.c447302e324bc2f5e8ff25816f7a3b58.js": "/antoniollaca/precache-manifest.c447302e324bc2f5e8ff25816f7a3b58.js",
+    "precache-manifest.f78fcf5ad25dec275e33a4e9f1830eb0.js": "/antoniollaca/precache-manifest.f78fcf5ad25dec275e33a4e9f1830eb0.js",
     "service-worker.js": "/antoniollaca/service-worker.js",
-    "static/css/main.06aa67af.chunk.css.map": "/antoniollaca/static/css/main.06aa67af.chunk.css.map",
+    "static/css/main.adebc170.chunk.css.map": "/antoniollaca/static/css/main.adebc170.chunk.css.map",
     "static/js/2.5aef673d.chunk.js.LICENSE.txt": "/antoniollaca/static/js/2.5aef673d.chunk.js.LICENSE.txt",
     "static/media/index.scss": "/antoniollaca/static/media/playfair.20e1565d.ttf",
     "static/media/App.scss": "/antoniollaca/static/media/mobile.c5d853df.jpg",
@@ -22,7 +22,7 @@
   "entrypoints": [
     "static/js/runtime-main.6e360e44.js",
     "static/js/2.5aef673d.chunk.js",
-    "static/css/main.06aa67af.chunk.css",
-    "static/js/main.fae39659.chunk.js"
+    "static/css/main.adebc170.chunk.css",
+    "static/js/main.657a0162.chunk.js"
   ]
 }
