@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import {Link} from 'react-router-dom';
 import './index.scss';
 import Dropdown from '../dropdown';
 
@@ -9,13 +10,13 @@ function Navbar() {
     <div className="navbar">
       <nav className="navbar container">
         <div className="left">
-          <a href="/">Antonio Llaca</a>
+          <Link to="/">Antonio Llaca</Link>
         </div>
         <div className="right">
-          <a href="/about">About</a>
-          <a href="/media">Media</a>
-          <a href="/events">Events</a>
-          <a href="/contact">Contact</a>
+          <Link to="/about">About</Link>
+          <Link to="/media">Media</Link>
+          <Link to="/events">Events</Link>
+          <Link to="/contact">Contact</Link>
           {Dropdown({
             options: ["EN", "FR", "SP"]
           })}

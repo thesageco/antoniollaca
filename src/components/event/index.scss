@@ -24,15 +24,16 @@
     align-items: baseline;
     color: rgb(168, 168, 168);
     flex-wrap: wrap;
+    padding-bottom: 3%;
     .dates {
       text-transform: uppercase;
-      span {
-        font-size: 1rem;
-      }
+    }
+    span {
+      font-size: 1rem;
     }
     .location {
     }
-    padding-bottom: 3%;
+    
   }
   
   .status {
@@ -54,4 +55,24 @@
       border-radius: 1rem / 1rem;
     }
   }
+  &.fullwidth{
+    padding: 1vh 2vw;
+    border: 1px solid #D8D8D8;
+    border-radius: 2px;
+    margin-bottom: 2vh;
+    p {
+      padding-bottom: 0.5%;
+    }
+    .place {
+      padding-bottom: 1%;
+    }
+    .title {
+      font-weight: 600;
+      font-size: 1.1rem;
+    }
+    .dateLocation{
+      padding-bottom: 0.5%;
+    }
+  }
+  
 }

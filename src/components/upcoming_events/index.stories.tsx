@@ -13,7 +13,7 @@ export default {
 export const Default = () =>  {
   return (
     <LanguageStore.Provider value={'EN'}>
-      {UpcomingEvents()}
+      {UpcomingEvents({})}
     </LanguageStore.Provider>
   );
 }

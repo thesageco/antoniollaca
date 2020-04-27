@@ -1,30 +1,6 @@
-.home {
+.app {
   min-height: 100vh;
   display:flex; 
   flex-direction:column; 
   justify-content: space-between;
-  .blurb {
-    background-color: black;
-    background-image: url('./assets/banner/desktop.jpg');
-    background-repeat: no-repeat;
-    background-position: right bottom;
-    background-size: auto 100%;
-    @media only screen and (max-width: 769px){
-      height: 95vh;
-      background-repeat: no-repeat;
-      background-position: center bottom;
-      background-attachment: scroll;
-      background-image: url('./assets/banner/mobile.jpg');
-      background-size: 80% auto;
-    }
-    color: white;
-    padding-top:4%;
-    min-height: 50vh;
-    p {
-      margin-top: 1%;
-    }
-    .buttons {
-      margin-top: 6%;
-    }
-  }
 }

@@ -5,7 +5,8 @@
     "details": "TBC",
     "dates": "NOV 17-22",
     "location": "Tlaxcala, Tlaxcala, Mexico",
-    "status": "On"
+    "status": "On",
+    "position": 1
   },
   {
     "title": "Research Study",
@@ -13,7 +14,8 @@
     "details": "Research Study on the conductor's gesture influences the choral ensembles sound",
     "dates": "NOV 6-8",
     "location": "Montreal, QC, Canada",
-    "status": "On"
+    "status": "On",
+    "position": 2
   },
   {
     "title": "Cuban Choral Music",
@@ -21,6 +23,34 @@
     "details": "Workshop on coval/choral technique for intermediate to advance youth choirs.",
     "dates": "MAY 16",
     "location": "Montreal, QC, Canada",
-    "status": "Off"
+    "status": "Off",
+    "position": 3
+  },
+  {
+    "title": "Event not visible on home page",
+    "place": "Location 4",
+    "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "dates": "Apr 31",
+    "location": "Ottawa, ON, Canada",
+    "status": "On",
+    "position": 4
+  },
+  {
+    "title": "Another event, not on homepage",
+    "place": "Location 5",
+    "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "dates": "March 20",
+    "location": "Montreal, QC, Canada",
+    "status": "Off",
+    "position": 5
+  },
+  {
+    "title": "Last event",
+    "place": "Location 6",
+    "details": "Integer sit amet porta mauris. Praesent tincidunt eget nibh nec mattis.",
+    "dates": "Feb 16",
+    "location": "Montreal, QC, Canada",
+    "status": "On",
+    "position": 6
   }
 ]

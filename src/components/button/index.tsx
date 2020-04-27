@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import './index.scss';
-import { LanguageSetStore } from '../../App'
 
 enum ButtonType {
   White="white",

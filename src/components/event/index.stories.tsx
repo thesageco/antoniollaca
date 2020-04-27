@@ -20,7 +20,8 @@ export const Default = () =>  {
         details: "Research Study on the conductor's gesture influences the choral ensembles sound",
         dates: "NOV 6-8",
         location: "Montreal, QC, Canada",
-        status: EventStatus.OnTrack
+        status: EventStatus.OnTrack,
+        position: 0,
       })}
     </LanguageStore.Provider>
   );
@@ -36,7 +37,8 @@ export const Cancelled = () =>  {
         details: "Workshop on coval/choral technique for intermediate to advance youth choirs.",
         dates: "MAY 16",
         location: "Montreal, QC, Canada",
-        status: EventStatus.Cancelled
+        status: EventStatus.Cancelled,
+        position: 1,
       })}
     </LanguageStore.Provider>
   );
