@@ -2,16 +2,19 @@ import React, { useReducer, useEffect, useState } from 'react';
 import './App.scss';
 
 import {
-  BrowserRouter as Router,
+  Router,
   Switch,
   Route
 } from "react-router-dom";
+
+import history from './history';
 
 import Navbar from './components/navbar';
 import Hamburger from './components/hamburger';
 import Footer from './components/footer';
 
 import Home from './pages/home';
+import About from './pages/about';
 import Events from './pages/events';
 
 const LanguageSetStore = React.createContext({});
@@ -29,14 +32,17 @@ function languageReducer(
   }
 }
 
+history.listen((location, action) => {
+  console.log(location, action);
+    window.scrollTo(0, 0)
+})
 
 export default function App() {
   let [state, dispatch] = useReducer(languageReducer, {lang: 'EN'});
-  
-  console.log(state.lang)
+
   return (
     <div className="app">
-      <Router>
+      <Router history={history}>
         <LanguageStore.Provider value={state.lang}>
           <LanguageSetStore.Provider value={dispatch}>
             <Navbar />
@@ -45,6 +51,9 @@ export default function App() {
               <Switch>
                 <Route path="/events">
                   <Events />
+                </Route>
+                <Route path="/about">
+                  {About({lang: state.lang})}
                 </Route>
                 <Route path="/">
                   {Home({lang: state.lang})}

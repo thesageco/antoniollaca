@@ -4,6 +4,8 @@ import {LanguageStore} from '../../App';
 import {Button, ButtonType} from '../../components/button';
 import {UpcomingEvents} from '../../components/upcoming_events';
 
+import history from '../../history';
+
 interface HomeProp {
   lang: String;
 }
@@ -11,24 +13,26 @@ interface HomeProp {
 function information(lang: String){
   switch(lang){
     case 'EN': 
-       return ["Choral conductor, teacher and clinician", ("Since 2009, Mr Llaca has conducted Coro Vivo Ottawa, and currently " +
-       "teaches choral and instrumental conducting at Carelton University. He " +
-       "is also a professor at the Conservatoire de Musique de Gatineau where he" +
-       "conducts the choirs and orchestra. He conducts the Chinese Children's " +
-       "Choir of Canada.")];
+       return ["Choral conductor, pedagogue and clinician", 
+       ("Choral conductor and pedagogue based in Ottawa, Canada. Mr. Llaca is "+
+       "Director of Choral Activities at Carleton University and Conductor of "+
+       "large ensembles at the Conservatoire de Musique de Quebec (Gatineau). "+
+       "Since 2009, he has conducted Coro Vivo Ottawa and is in high demand as"+
+       " a conductor and clinician in Canada and around the world.")];
     case 'FR': 
-      return ["Chef de chœur, enseignant et clinicien", ("Depuis 2009, M. Llaca "+
-              "dirige Coro Vivo Ottawa et enseigne" +
-              "actuellement la direction chorale et instrumentale à l'Université" +
-              "Carelton. Il est également professeur au Conservatoire de Musique" +
-              "de Gatineau où il dirige les chorales et l'orchestre. Il dirige" +
-              "le Chinese Children's Choir of Canada.")];
+      return ["Chef de chœur, pédagogue et clinicien", ("Chef de chœur et "+
+      "pédagogue basé à Ottawa, Canada. M. Llaca est directeur des activités "+
+      "chorales à l'Université Carleton et chef de grands ensembles au "+
+      "Conservatoire de Musique de Québec (Gatineau). Depuis 2009, il dirige "+
+      "Coro Vivo Ottawa et est très demandé en tant que chef d'orchestre et "+
+      "clinicien au Canada et dans le monde.")];
     case 'SP': 
-      return ["Director de coro, profesor y clínico.", "Desde 2009, el Sr. Llaca " +
-      "ha dirigido Coro Vivo Ottawa, y actualmente enseña dirección coral e "+
-      "instrumental en la Universidad de Carelton. También es profesor en el "+
-      "Conservatorio de Música de Gatineau, donde dirige los coros y la orquesta. "+
-      "Dirige el coro de niños chinos de Canadá."]
+      return ["Director coral, pedagogo y tallerista", "Director coral y "+
+      "pedagogo con sede en Ottawa, Canadá. El Sr. Llaca es Director de "+
+      "Actividades Corales en la Universidad de Carleton (Ottawa, Canada) y "+
+      "Director de grandes ensambles en el Conservatorio Superior de Música de "+
+      "Quebec (Gatineau). Desde 2009, dirige Coro Vivo Ottawa y tiene una gran "+
+      "demanda como director y clínico en Canadá y en todo el mundo."]
     default: 
       return ["", ""];
   }

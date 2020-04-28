@@ -30,6 +30,10 @@
       a, .dd-wrapper {
         margin-left: 5%;
       }
+      .active {
+        padding-bottom: 2px;
+        border-bottom: 1px solid #FFF;
+      }
     }    
   }
   a, a:visited {

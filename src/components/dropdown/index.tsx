@@ -1,4 +1,4 @@
-import React, { useState, useContext } from 'react';
+import React, { useState, useContext, MouseEvent } from 'react';
 import './index.scss';
 import { LanguageSetStore } from '../../App'
 import down from '../../assets/icons/down-arrow.svg'
@@ -17,25 +17,27 @@ export default function Dropdown(props: DropdownProp) {
     setOpen(!open);
   }
   
-  function handleClick(i: number, lang: String) {
+  function handleClick(e: MouseEvent, i: number, lang: String) {
+    e.preventDefault()
     // @ts-ignore
     dispatch({action: 'update', lang: lang});
     setActiveIndex(i);
     toggleOpen();
+    e.stopPropagation();
   }
   
   return (
     <div className="dd-wrapper">
       <div className="dd-header">
         <div className="dd-header-title" onClick={toggleOpen}>
-          {state.options[activeIndex]}
+          <span>{state.options[activeIndex]}</span>
           <img alt="down arrow" src={down} className={`${open?"up":"down"}`}/>
         </div>
         
       </div>
       <ul className={`dd-list ${open?"show":"hide"}`}>
         {state.options.map((lang, i) => {
-          return <li className={`dd-list-item ${activeIndex === i?"selected":""}`} onClick={() => handleClick(i, lang)} key={i}>{lang}</li>
+          return <li className={`dd-list-item ${activeIndex === i?"selected":""}`} onClick={(e) => handleClick(e, i, lang)} key={i}>{lang}</li>
         })}
       </ul>
     </div>

@@ -4,10 +4,6 @@ import './index.scss';
 import {Event, EventCardType, EventStatus} from '../event'
 import events_json from '../../assets/events.json';
 
-console.log(events_json.sort(function(a, b) {
-      return (a.position - b.position);
-  }))
-
 interface UpcomingEventsProp {
   type? : EventCardType;
 }
