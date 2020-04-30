@@ -1,7 +1,7 @@
 import React, { useState, useContext, MouseEvent } from 'react';
 import './index.scss';
 import { LanguageSetStore } from '../../App'
-import down from '../../assets/icons/down-arrow.svg'
+import down from '../../assets/icons/down-arrow-2.svg'
 
 interface DropdownProp {
   options: String[];

@@ -51,7 +51,7 @@ export default function Home(props: HomeProp) {
   return (
   <div className="home">
     <div className="blurb">
-      <div className="container">
+      <div className="sub-container">
         <h1 className="text-container">{title}</h1>
         <p className="text-container">{blurb}</p>
         <div className="buttons text-container">

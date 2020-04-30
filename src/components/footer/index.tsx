@@ -21,7 +21,7 @@ export default function Footer() {
       <div className="mitm">
       </div>
       <div>
-        {/*<p className="SageCo">Website by <a href="https://thesage.co/" target="_blank" rel="noopener noreferrer">SageCo</a></p>*/}
+        <p className="SageCo">Website by <a href="https://thesage.co/" target="_blank" rel="noopener noreferrer">SageCo</a></p>
       </div>
     </div>
   );
