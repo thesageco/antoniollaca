@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/antoniollaca/static/css/main.9f564220.chunk.css",
+    "main.css": "/antoniollaca/static/css/main.c08fa446.chunk.css",
     "main.js": "/antoniollaca/static/js/main.ca400768.chunk.js",
     "main.js.map": "/antoniollaca/static/js/main.ca400768.chunk.js.map",
     "runtime-main.js": "/antoniollaca/static/js/runtime-main.6e360e44.js",
@@ -9,10 +9,10 @@
     "static/js/2.b95409b7.chunk.js": "/antoniollaca/static/js/2.b95409b7.chunk.js",
     "static/js/2.b95409b7.chunk.js.map": "/antoniollaca/static/js/2.b95409b7.chunk.js.map",
     "index.html": "/antoniollaca/index.html",
-    "precache-manifest.637f701e07f64de5e7a1664490ce8750.js": "/antoniollaca/precache-manifest.637f701e07f64de5e7a1664490ce8750.js",
+    "precache-manifest.11538b570f9443de4b1e0325bfc4d9ae.js": "/antoniollaca/precache-manifest.11538b570f9443de4b1e0325bfc4d9ae.js",
     "service-worker.js": "/antoniollaca/service-worker.js",
     "static/css/2.1a0a2c47.chunk.css.map": "/antoniollaca/static/css/2.1a0a2c47.chunk.css.map",
-    "static/css/main.9f564220.chunk.css.map": "/antoniollaca/static/css/main.9f564220.chunk.css.map",
+    "static/css/main.c08fa446.chunk.css.map": "/antoniollaca/static/css/main.c08fa446.chunk.css.map",
     "static/js/2.b95409b7.chunk.js.LICENSE.txt": "/antoniollaca/static/js/2.b95409b7.chunk.js.LICENSE.txt",
     "static/media/index.scss": "/antoniollaca/static/media/second_desktop.2ef158ff.jpg",
     "static/media/down-arrow-2.svg": "/antoniollaca/static/media/down-arrow-2.bd4e509e.svg",
@@ -31,7 +31,7 @@
     "static/js/runtime-main.6e360e44.js",
     "static/css/2.1a0a2c47.chunk.css",
     "static/js/2.b95409b7.chunk.js",
-    "static/css/main.9f564220.chunk.css",
+    "static/css/main.c08fa446.chunk.css",
     "static/js/main.ca400768.chunk.js"
   ]
 }
