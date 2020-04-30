@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/antoniollaca/static/css/main.5b7b8cc1.chunk.css",
-    "main.js": "/antoniollaca/static/js/main.9389c15a.chunk.js",
-    "main.js.map": "/antoniollaca/static/js/main.9389c15a.chunk.js.map",
+    "main.css": "/antoniollaca/static/css/main.9f564220.chunk.css",
+    "main.js": "/antoniollaca/static/js/main.ca400768.chunk.js",
+    "main.js.map": "/antoniollaca/static/js/main.ca400768.chunk.js.map",
     "runtime-main.js": "/antoniollaca/static/js/runtime-main.6e360e44.js",
     "runtime-main.js.map": "/antoniollaca/static/js/runtime-main.6e360e44.js.map",
     "static/css/2.1a0a2c47.chunk.css": "/antoniollaca/static/css/2.1a0a2c47.chunk.css",
-    "static/js/2.939bef6d.chunk.js": "/antoniollaca/static/js/2.939bef6d.chunk.js",
-    "static/js/2.939bef6d.chunk.js.map": "/antoniollaca/static/js/2.939bef6d.chunk.js.map",
+    "static/js/2.b95409b7.chunk.js": "/antoniollaca/static/js/2.b95409b7.chunk.js",
+    "static/js/2.b95409b7.chunk.js.map": "/antoniollaca/static/js/2.b95409b7.chunk.js.map",
     "index.html": "/antoniollaca/index.html",
-    "precache-manifest.d2acace12dc56aac3b60cb24db298c25.js": "/antoniollaca/precache-manifest.d2acace12dc56aac3b60cb24db298c25.js",
+    "precache-manifest.637f701e07f64de5e7a1664490ce8750.js": "/antoniollaca/precache-manifest.637f701e07f64de5e7a1664490ce8750.js",
     "service-worker.js": "/antoniollaca/service-worker.js",
     "static/css/2.1a0a2c47.chunk.css.map": "/antoniollaca/static/css/2.1a0a2c47.chunk.css.map",
-    "static/css/main.5b7b8cc1.chunk.css.map": "/antoniollaca/static/css/main.5b7b8cc1.chunk.css.map",
-    "static/js/2.939bef6d.chunk.js.LICENSE.txt": "/antoniollaca/static/js/2.939bef6d.chunk.js.LICENSE.txt",
+    "static/css/main.9f564220.chunk.css.map": "/antoniollaca/static/css/main.9f564220.chunk.css.map",
+    "static/js/2.b95409b7.chunk.js.LICENSE.txt": "/antoniollaca/static/js/2.b95409b7.chunk.js.LICENSE.txt",
     "static/media/index.scss": "/antoniollaca/static/media/second_desktop.2ef158ff.jpg",
+    "static/media/down-arrow-2.svg": "/antoniollaca/static/media/down-arrow-2.bd4e509e.svg",
     "static/media/down-arrow.svg": "/antoniollaca/static/media/down-arrow.cd7c3e4f.svg",
     "static/media/facebook.svg": "/antoniollaca/static/media/facebook.6494aad0.svg",
     "static/media/instagram.svg": "/antoniollaca/static/media/instagram.99e3e6c8.svg",
@@ -29,8 +30,8 @@
   "entrypoints": [
     "static/js/runtime-main.6e360e44.js",
     "static/css/2.1a0a2c47.chunk.css",
-    "static/js/2.939bef6d.chunk.js",
-    "static/css/main.5b7b8cc1.chunk.css",
-    "static/js/main.9389c15a.chunk.js"
+    "static/js/2.b95409b7.chunk.js",
+    "static/css/main.9f564220.chunk.css",
+    "static/js/main.ca400768.chunk.js"
   ]
 }
