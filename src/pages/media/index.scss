@@ -1,0 +1,86 @@
+.media {
+  height: 80vh;
+  .sub-container {
+    max-height: 80vh;
+  }
+  h1 {
+    margin: 4vh 0 2vh 0;
+    color: black;
+  }
+  .media-img-slide {
+    .media-img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      max-height: 60vh;
+      max-width: 80vw;
+      text-align: center;
+    }
+  }
+  
+  .slider-container {
+    max-height: 60vh;
+    position: relative;
+    .buttonBack {
+      padding: 0;
+      border: none;
+      background: none;
+      position: absolute;
+      top: 50%;
+      left: 10%;
+      @media only screen and (max-width: 1500px) and (min-width: 1024px){
+        left: 10%;
+      }
+      @media only screen and (max-width: 1024px) and (min-width: 769px){
+        left: 5%;
+      }
+      @media only screen and (max-width: 769px){
+        left: 0%;
+      }
+      transform: translateY(-50%);
+      img {
+        transform: rotate(90deg);
+        width: 3vh;
+        filter: brightness(0) saturate(100%) invert(0%) sepia(100%) saturate(7448%) hue-rotate(268deg) brightness(121%) contrast(101%);
+      }
+      &:disabled{
+        img {
+          display: none;
+          filter: brightness(0) saturate(100%) invert(68%) sepia(7%) saturate(7%) hue-rotate(352deg) brightness(89%) contrast(87%);
+        }
+      }
+    }
+
+    .buttonNext {
+      padding: 0;
+      border: none;
+      background: none;
+      position: absolute;
+      top: 50%;
+      right: 10%;
+      @media only screen and (max-width: 1500px) and (min-width: 1024px){
+        right: 10%;
+      }
+      @media only screen and (max-width: 1024px) and (min-width: 769px){
+        right: 5%;
+      }
+      @media only screen and (max-width: 769px){
+        right: 0%;
+      }
+      transform: translateY(-50%);
+      img {
+        transform: rotate(270deg);
+        width: 3vh;
+        filter: brightness(0) saturate(100%) invert(0%) sepia(100%) saturate(7448%) hue-rotate(268deg) brightness(121%) contrast(101%);
+      }
+      &:disabled{
+        img {
+          display: none;
+          filter: brightness(0) saturate(100%) invert(68%) sepia(7%) saturate(7%) hue-rotate(352deg) brightness(89%) contrast(87%);
+        }
+      }
+      
+    }
+  }  
+  
+}

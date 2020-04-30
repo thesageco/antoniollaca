@@ -18,6 +18,11 @@ export default function Footer() {
           <img src={instagram} alt="instagram logo" />
         </a>
       </footer>
+      <div className="mitm">
+      </div>
+      <div>
+        {/*<p className="SageCo">Website by <a href="https://thesage.co/" target="_blank" rel="noopener noreferrer">SageCo</a></p>*/}
+      </div>
     </div>
   );
 };

@@ -15,6 +15,8 @@ import Footer from './components/footer';
 
 import Home from './pages/home';
 import About from './pages/about';
+import Contact from './pages/contact';
+import Media from './pages/media';
 import Events from './pages/events';
 
 const LanguageSetStore = React.createContext({});
@@ -33,7 +35,6 @@ function languageReducer(
 }
 
 history.listen((location, action) => {
-  console.log(location, action);
     window.scrollTo(0, 0)
 })
 
@@ -51,6 +52,12 @@ export default function App() {
               <Switch>
                 <Route path="/events">
                   <Events />
+                </Route>
+                <Route path="/contact">
+                  {Contact({lang: state.lang})}
+                </Route>
+                <Route path="/media">
+                  {Media()}
                 </Route>
                 <Route path="/about">
                   {About({lang: state.lang})}

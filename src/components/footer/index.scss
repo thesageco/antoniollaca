@@ -1,9 +1,14 @@
 .footer {
   margin-top: auto;
+  padding-top: 2vh;
   text-align: center;
   margin-left: 0;
   display: flex;
   justify-content: center;
+  @media only screen and (max-width: 1024px) {
+    flex-direction: column;
+    align-items: center;
+  }
   .footer-content {
     width: 10%;
     @media only screen and (max-width: 1500px) and (min-width: 1024px){
@@ -29,6 +34,15 @@
       @media only screen and (max-width: 769px){
         width: 30%;
       }
+    }
+  }
+  .SageCo {
+    color: #999;
+    text-align: center;
+    font-size: 0.8rem;
+    font-family: 'Open Sans';
+    @media only screen and (max-width: 769px){
+      padding-top: 1vh;
     }
   }
   
