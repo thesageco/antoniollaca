@@ -1,27 +1,36 @@
 {
   "files": {
-    "main.css": "/antoniollaca/static/css/main.0409ff6c.chunk.css",
-    "main.js": "/antoniollaca/static/js/main.c8010fa0.chunk.js",
-    "main.js.map": "/antoniollaca/static/js/main.c8010fa0.chunk.js.map",
+    "main.css": "/antoniollaca/static/css/main.5b7b8cc1.chunk.css",
+    "main.js": "/antoniollaca/static/js/main.9389c15a.chunk.js",
+    "main.js.map": "/antoniollaca/static/js/main.9389c15a.chunk.js.map",
     "runtime-main.js": "/antoniollaca/static/js/runtime-main.6e360e44.js",
     "runtime-main.js.map": "/antoniollaca/static/js/runtime-main.6e360e44.js.map",
-    "static/js/2.1ef520a5.chunk.js": "/antoniollaca/static/js/2.1ef520a5.chunk.js",
-    "static/js/2.1ef520a5.chunk.js.map": "/antoniollaca/static/js/2.1ef520a5.chunk.js.map",
+    "static/css/2.1a0a2c47.chunk.css": "/antoniollaca/static/css/2.1a0a2c47.chunk.css",
+    "static/js/2.939bef6d.chunk.js": "/antoniollaca/static/js/2.939bef6d.chunk.js",
+    "static/js/2.939bef6d.chunk.js.map": "/antoniollaca/static/js/2.939bef6d.chunk.js.map",
     "index.html": "/antoniollaca/index.html",
-    "precache-manifest.9fe7284e7cc7076aad0146a18d2351b4.js": "/antoniollaca/precache-manifest.9fe7284e7cc7076aad0146a18d2351b4.js",
+    "precache-manifest.d2acace12dc56aac3b60cb24db298c25.js": "/antoniollaca/precache-manifest.d2acace12dc56aac3b60cb24db298c25.js",
     "service-worker.js": "/antoniollaca/service-worker.js",
-    "static/css/main.0409ff6c.chunk.css.map": "/antoniollaca/static/css/main.0409ff6c.chunk.css.map",
-    "static/js/2.1ef520a5.chunk.js.LICENSE.txt": "/antoniollaca/static/js/2.1ef520a5.chunk.js.LICENSE.txt",
-    "static/media/index.scss": "/antoniollaca/static/media/playfair.20e1565d.ttf",
+    "static/css/2.1a0a2c47.chunk.css.map": "/antoniollaca/static/css/2.1a0a2c47.chunk.css.map",
+    "static/css/main.5b7b8cc1.chunk.css.map": "/antoniollaca/static/css/main.5b7b8cc1.chunk.css.map",
+    "static/js/2.939bef6d.chunk.js.LICENSE.txt": "/antoniollaca/static/js/2.939bef6d.chunk.js.LICENSE.txt",
+    "static/media/index.scss": "/antoniollaca/static/media/second_desktop.2ef158ff.jpg",
     "static/media/down-arrow.svg": "/antoniollaca/static/media/down-arrow.cd7c3e4f.svg",
     "static/media/facebook.svg": "/antoniollaca/static/media/facebook.6494aad0.svg",
     "static/media/instagram.svg": "/antoniollaca/static/media/instagram.99e3e6c8.svg",
+    "static/media/media_2.jpg": "/antoniollaca/static/media/media_2.93f85262.jpg",
+    "static/media/media_3.jpg": "/antoniollaca/static/media/media_3.85cb6f32.jpg",
+    "static/media/media_4.jpg": "/antoniollaca/static/media/media_4.a84b23b5.jpg",
+    "static/media/media_5.jpg": "/antoniollaca/static/media/media_5.c9657d87.jpg",
+    "static/media/media_6.jpg": "/antoniollaca/static/media/media_6.a2d35072.jpg",
+    "static/media/media_7.jpg": "/antoniollaca/static/media/media_7.8dedc540.jpg",
     "static/media/twitter.svg": "/antoniollaca/static/media/twitter.9546889d.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.6e360e44.js",
-    "static/js/2.1ef520a5.chunk.js",
-    "static/css/main.0409ff6c.chunk.css",
-    "static/js/main.c8010fa0.chunk.js"
+    "static/css/2.1a0a2c47.chunk.css",
+    "static/js/2.939bef6d.chunk.js",
+    "static/css/main.5b7b8cc1.chunk.css",
+    "static/js/main.9389c15a.chunk.js"
   ]
 }
