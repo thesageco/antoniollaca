@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import {Link} from 'react-router-dom';
 import './index.scss';
 
 enum ButtonType {
@@ -16,9 +17,9 @@ export default function Button(props: ButtonProp) {
   const [state, setState] = useState(props);
   
   return (
-    <a href={state.href} className={`button ${state.type}`}>
+    <Link to={state.href} className={`button ${state.type}`}>
       {state.text}
-    </a>
+    </Link>
   );
 
 };
