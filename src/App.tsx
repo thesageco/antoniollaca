@@ -2,7 +2,7 @@ import React, { useReducer, useEffect, useState } from 'react';
 import './App.scss';
 
 import {
-  Router,
+  HashRouter as Router,
   Switch,
   Route
 } from "react-router-dom";
@@ -43,7 +43,7 @@ export default function App() {
 
   return (
     <div className="app">
-      <Router history={history}>
+      <Router basename="">
         <LanguageStore.Provider value={state.lang}>
           <LanguageSetStore.Provider value={dispatch}>
             <Navbar />

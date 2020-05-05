@@ -52,7 +52,7 @@ export default function Contact(props: ContactProp) {
       <div className="form">
         <form id="gform" method="POST" action={"https://script.google.com/macros/s/AKfycbxWqclxQL4PVhHwNIPHS6bZYzuP6yXwlNXdGNj8VombQHdNHwg/exec"} onSubmit={handleSubmit}>
           <input
-            name="Email"
+            name="email"
             type="email"
             value={email}
             onChange={e => setEmail(e.target.value)}
@@ -61,7 +61,7 @@ export default function Contact(props: ContactProp) {
             disabled={submitted}
           />
           <input
-            name="Subject"
+            name="subject"
             className="subject"
             type="text"
             value={subject}
@@ -73,7 +73,7 @@ export default function Contact(props: ContactProp) {
             disabled={submitted}
           />
           <textarea
-            name="Message"
+            name="message"
             className="message"
             value={message}
             onChange={e => setMessage(e.target.value)}
