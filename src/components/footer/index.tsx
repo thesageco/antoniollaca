@@ -14,7 +14,7 @@ export default function Footer() {
         <a href="https://www.facebook.com/antonioconducts" target="_blank" rel="noopener noreferrer">
           <img src={facebook} alt="facebook logo" />
         </a>
-        <a href="" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.instagram.com/llacaantonio/" target="_blank" rel="noopener noreferrer">
           <img src={instagram} alt="instagram logo" />
         </a>
       </footer>
