@@ -6,7 +6,7 @@
     "dates": "NOV 17-22, 2020",
     "location": "Tlaxcala, Tlaxcala, Mexico",
     "status": "On",
-    "position": 1
+    "position": 2
   },
   {
     "title": "The Conductor's Gesture",
@@ -15,7 +15,7 @@
     "dates": "NOV 6-8, 2020",
     "location": "Montreal, QC, Canada",
     "status": "On",
-    "position": 2
+    "position": 3
   },
   {
     "title": "Decoding Cuban Choral Music",
@@ -24,7 +24,7 @@
     "dates": "MAY 16, 2020",
     "location": "Montreal, QC, Canada",
     "status": "Off",
-    "position": 3
+    "position": 1
   },
   {
     "title": "Event not visible on home page",
