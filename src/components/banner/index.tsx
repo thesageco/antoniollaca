@@ -1,7 +1,5 @@
-import React, { useState, useContext, MouseEvent } from 'react';
+import React from 'react';
 import './index.scss';
-import { LanguageStore } from '../../App'
-import down from '../../assets/icons/down-arrow.svg'
 
 interface BannerProp {
   lang: String;

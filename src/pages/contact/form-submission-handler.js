@@ -1,4 +1,4 @@
-
+/* eslint-disable */
 function validateHuman(honeypot) {
   if (honeypot) {  //if hidden form filled up
     console.log("Robot Detected!");

@@ -1,4 +1,4 @@
-import React, { useState, MouseEvent } from 'react';
+import React, { useState } from 'react';
 import {Link} from 'react-router-dom';
 import './index.scss';
 import Dropdown from '../dropdown';
@@ -24,10 +24,10 @@ function Navbar() {
           <Link to="/" onClick={()=>setActive(0)}>Antonio Llaca</Link>
         </div>
         <div className="right">
-          <Link className={active==1?"active":""} to="/about" onClick={()=>setActive(1)}>About</Link>
-          <Link className={active==2?"active":""} to="/media" onClick={()=>setActive(2)}>Media</Link>
-          <Link className={active==3?"active":""} to="/events" onClick={()=>setActive(3)}>Events</Link>
-          <Link className={active==4?"active":""} to="/contact" onClick={()=>setActive(4)}>Contact</Link>
+          <Link className={active===1?"active":""} to="/about" onClick={()=>setActive(1)}>About</Link>
+          <Link className={active===2?"active":""} to="/media" onClick={()=>setActive(2)}>Media</Link>
+          <Link className={active===3?"active":""} to="/events" onClick={()=>setActive(3)}>Events</Link>
+          <Link className={active===4?"active":""} to="/contact" onClick={()=>setActive(4)}>Contact</Link>
           {Dropdown({
             options: ["EN", "FR", "SP"]
           })}

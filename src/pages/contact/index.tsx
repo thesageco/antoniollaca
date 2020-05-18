@@ -1,9 +1,6 @@
 import React, { useEffect, useState, FormEvent } from 'react';
 import './index.scss';
 import handleFormSubmit from './form-submission-handler.js'
-import Banner from '../../components/banner';
-
-import history from '../../history';
 
 interface ContactProp {
   lang: String;
