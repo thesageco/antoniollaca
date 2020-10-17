@@ -11,7 +11,7 @@
   {
     "title": "CONFERENCE: Online Rehearsal Technique",
     "place": "Federacion de Coros del Tachira",
-    "details": "Online conference on rehearsal technique and tools in an online envioronment. this session will be presented in Spanish",
+    "details": "Online conference on rehearsal technique and tools in an online envioronment. This session will be presented in Spanish",
     "dates": "OCTOBER 10, 2020",
     "location": "San Cristobal, Tachira, Venezuela",
     "status": "On",
@@ -27,29 +27,29 @@
     "position": 3
   },
   {
-    "title": "CONFERENCE: Choral technique for amateur choirs",
-    "place": "Festival Coral Vocal Terra",
-    "details": "Workshops on vocal/choral technique for amateur intermediate to advance choirs. Including foreing language pronunciation, conducting gesture and rehearsal technique",
-    "dates": "NOVEMBER 17 - 22, 2020",
-    "location": "Tlaxcala, Tlaxcala, Mexico",
+    "title": "CONFERENCE: Online Rehearsal techniques",
+    "place": "African Confederarion of Choral Music (ACCM)",
+    "details": "Online conference on rehearsal technique and tools in an online envioronment. Sponsored by the ACCM there will be two sessions one in English and one in French",
+    "dates": "OCTOBER 20 & 22, 2020",
+    "location": "Dakar, Senegal",
     "status": "On",
     "position": 4
   },
   {
-    "title": "CONCERT: Carleton Univerity Choirs Concerts",
-    "place": "Carleton University",
-    "details": "End of year choral concert by the Carleton University Choirs. Further details TBA",
-    "dates": "DECEMBER 9, 2020",
-    "location": "Ottawa, ON, Canada",
+    "title": "CONFERENCE: English and French Diction for Choral Conductors",
+    "place": "Vocal Terra",
+    "details": "Conference on English and French diction for choral conductors in Latin America. Presentation in Spanish as part of Vocal Terra International Choral Festival",
+    "dates": "NOVEMBER 19 & 20, 2020",
+    "location": "Tlaxcala, Tlaxcala, Mexico",
     "status": "On",
     "position": 5
   },
   {
-    "title": "CONCERT: Coro Vivo Ottawa Concert",
-    "place": "Coro Vivo Ottawa",
-    "details": "End of year choral concert by the Coro Vivo Ottawa. Further details TBA.",
-    "dates": "DECEMBER 4 & 5, 2020",
-    "location": "Ottawa, ON, Canada",
+    "title": "CONFERENCE: Online Rehearsal techniques",
+    "place": "Universidad Nacional de Musica (UNM)",
+    "details": "Online conference on rehearsal technique and tools in an online envioronment. Sponsored by the UNM and Camrata Vocal de Lima as part of the 1st edition of Peru Canta International Choral Festival",
+    "dates": "NOVEMBER 30, 2020",
+    "location": "Lima, Peru",
     "status": "On",
     "position": 6
   },
