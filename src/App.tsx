@@ -3,9 +3,11 @@ import './App.scss';
 
 import {
   HashRouter as Router,
-  Switch,
-  Route
+  Routes,
+  Route,
+  Link,
 } from "react-router-dom";
+
 
 import history from './history';
 
@@ -23,23 +25,24 @@ const LanguageSetStore = React.createContext({});
 const LanguageStore = React.createContext({});
 
 function languageReducer(
-  state: {lang: string}, 
-  action: {type: string, lang: string}
+  state: { lang: string },
+  action: { type: string, lang: string }
 ) {
   switch (action.type) {
     case 'update':
-      return {lang: action.lang};
+      return { lang: action.lang };
     default:
-      return {lang: action.lang}
+      return { lang: action.lang }
   }
 }
 
-history.listen((location, action) => {
-    window.scrollTo(0, 0)
-})
+history.listen(({ location, action }) => {
+  window.scrollTo(0, 0);
+});
+
 
 export default function App() {
-  let [state, dispatch] = useReducer(languageReducer, {lang: 'EN'});
+  let [state, dispatch] = useReducer(languageReducer, { lang: 'EN' });
 
   return (
     <div className="app">
@@ -49,23 +52,14 @@ export default function App() {
             <Navbar />
             <Hamburger />
           </LanguageSetStore.Provider>
-              <Switch>
-                <Route path="/events">
-                  <Events />
-                </Route>
-                <Route path="/contact">
-                  {Contact({lang: state.lang})}
-                </Route>
-                <Route path="/media">
-                  {Media()}
-                </Route>
-                <Route path="/about">
-                  {About({lang: state.lang})}
-                </Route>
-                <Route path="/">
-                  {Home({lang: state.lang})}
-                </Route>
-              </Switch>
+          <Routes>
+            <Route path="/events" element={<Events />} />
+            <Route path="/contact" element=
+              {Contact({ lang: state.lang })} />
+            <Route path="/media" element={Media()} />
+            <Route path="/about" element={About({ lang: state.lang })}/>
+            <Route path="/" element={Home({ lang: state.lang })}/>
+          </Routes>
           {Footer()}
         </LanguageStore.Provider>
       </Router>
@@ -73,4 +67,4 @@ export default function App() {
   );
 }
 
-export {LanguageSetStore, LanguageStore, App};
+export { LanguageSetStore, LanguageStore, App };
